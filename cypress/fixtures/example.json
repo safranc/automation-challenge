@@ -1,5 +1,25 @@
 {
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "name": "Satheesh",
+  "age": "34",
+  "assertionText":{
+    "labelFemale": "female",
+    "labelNurse": "nurse",
+    "alertText1": "Form submitted!",
+    "alertText2": "Abnormally long network call!"
+  },
+  "gender":{
+    "option1": "male",
+    "option2": "female",
+    "option3": "prefer not to say",
+    "option4": "others"
+  },
+  "request":{
+    "method" : "GET",
+    "url": "/todos/"
+  },
+  "response": {
+    "status": 200,
+    "title": "network"   
+  },
+  "pageTitle1": "AlayaCare - Automation Challenge"
 }
